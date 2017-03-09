@@ -1,2 +1,0 @@
-v0.6
-* Inital Release. Snacks, USI and TAC systems supported.
