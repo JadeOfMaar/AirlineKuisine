@@ -15,7 +15,3 @@ You may derive and modify the textures and add parts based on them as you like. 
 Firespitter can be found in full at:
 http://forum.kerbalspaceprogram.com/threads/24551-Firespitter-propeller-plane-and-helicopter-parts
 https://github.com/snjo/Firespitter
-
-
-CHANGELOG
-	* v0.6 - Inital Release. Snacks, USI and TAC systems supported.
