@@ -1,3 +1,7 @@
+V0.7.2 - 2017-03-16
+---
+- Testing MiniAVC
+
 V0.7.1 - 2017-03-16
 ---
 - Testing MiniAVC
