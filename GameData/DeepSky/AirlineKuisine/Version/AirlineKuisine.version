@@ -1,5 +1,6 @@
 "NAME":"Airline Kuisine",
 "DOWNLOAD":"https://github.com/JadeOfMaar/AirlineKuisine/releases",
+"URL":"https://github.com/JadeOfMaar/AirlineKuisine/blob/master/GameData/DeepSky/AirlineKuisine/Version/AirlineKuisine.version",
 "CHANGE_LOG_URL":"https://github.com/JadeOfMaar/AirlineKuisine/blob/master/GameData/DeepSky/AirlineKuisine/Version/Changelog.txt",
 "GITHUB":
 {
@@ -11,7 +12,7 @@
 {
 	"MAJOR":0,
 	"MINOR":7,
-	"PATCH":0,
+	"PATCH":1,
 	"BUILD":0
 },
 "KSP_VERSION":
