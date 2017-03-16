@@ -1,6 +1,5 @@
 v0.7 - 2017-03-15
 ---
-- Removed Firespitter
 - Buffed Mk2 Recycler [USI] to 4 kerbals at 65%.
 - Fixed problem where TAC mode overlaps Snacks mode.
 
