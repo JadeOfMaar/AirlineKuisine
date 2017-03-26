@@ -1,10 +1,18 @@
+v0.8.0 - 2017-03-26
+---
+- Added Kerbalism support.
+- Fixed MiniAVC support.
+
+
 V0.7.2 - 2017-03-16
 ---
 - Testing MiniAVC
 
+
 V0.7.1 - 2017-03-16
 ---
 - Testing MiniAVC
+
 
 v0.7 - 2017-03-15
 ---
