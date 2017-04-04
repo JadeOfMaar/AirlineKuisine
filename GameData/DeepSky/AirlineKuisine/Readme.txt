@@ -1,8 +1,6 @@
 README
 ----------------------------------
-Install as any other mod but it is useless without an accompanying life support system installed. TAC resources are known to add onto parts in Snacks mode so if this mod is going to be used alongside Snacks! then delete tanks_tac.cfg and utils_tac.cfg from within:
-"DeepSky\AirlineKuisine\Modes"
-
+Install as any other mod but it is useless without an accompanying life support system installed. 
 
 
 LICENSE
