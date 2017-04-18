@@ -1,3 +1,13 @@
+v0.8.5 - 2017-04-17
+---
+- Added texture switching to USI and TAC modes.
+- Fixed some errors in LS detection and resource switches.
+- [USI] Added Ore, Gypsum, Hydrates switching for Fertilizer production.
+- [USI] Shaved some weight off of processor parts.
+- [USI] Added warehouse and recycle bin modules.
+- [USI] Added MKS detection. Fertilizer processor (renamed to Mk2 MPU) will use Gypsum or Hydrates instead of Ore if MKS is present.
+- [TAC] Added battery (250 Ec) to Mk2 Rec Centre.
+
 v0.8.1 - 2017-04-03
 ---
 - Added waste processor modules to Mk2 Chemical Plant following Kerbalism 1.2.3
