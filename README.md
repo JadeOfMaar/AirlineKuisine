@@ -1,6 +1,6 @@
 # Deep Sky Airline Kuisine
 ## Everyone's favorite life support in everyone's favorite shape
-Version 0.8
+Version 0.8.5
   
 Another mod for [Kerbal Space Program](http://www.kerbalspaceprogram.com/), and very simple compared to some other mods out there. This is a very small parts pack that provides tanks and converters in the Mk2 spaceplane form factor, whose textures and functions change depending on the life support system installed beside them.
 
