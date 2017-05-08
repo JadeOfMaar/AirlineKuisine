@@ -1,3 +1,10 @@
+v1.0 - 2017-05-08
+---
+- Added Mk2 Rec Centre Long with full support.
+- [KISM] Added Ammonia to Air Harvester.
+- [USI] Very minor recalibrations.
+
+
 v0.8.5 - 2017-04-17
 ---
 - Added texture switching to USI and TAC modes.
