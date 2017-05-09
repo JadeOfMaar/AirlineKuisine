@@ -1,8 +1,23 @@
-v1.0 - 2017-05-08
+v1.0 - 2017-05-09
 ---
-- Added Mk2 Rec Centre Long with full support.
+- Added Mk2 Rec Centre Long.
+  - [USI] High hab quarters stats.
+  - [TAC] 500 EC.
+  - [KISM] Default provisions for crewed part.
+  - [SNX] Soil recycler for 4.
+  - [SNX] High snacks tankage. Holds > 2x short cabin.
+  - KIS volume.
+  - Moved in CTT.
+- Mk2 Rec Centre Short:
+  - [USI] Added more hab multipler, purposed as hab common.
+  - [SNX] Fixed Rec Centre Short snack supply starting only halfway.
+  - Moved in CTT with long cabin.
+- Added support for reference part (Science Lab from Mk2 Expansion)
+  - [SNX] Snack Grinder.
+  - [USI] 50% Recycler for 2 kerbals.
 - [KISM] Added Ammonia to Air Harvester.
 - [USI] Very minor recalibrations.
+- [USI] Replaced erroneous Hydrates storage with Minerals storage.
 
 
 v0.8.5 - 2017-04-17
@@ -15,11 +30,13 @@ v0.8.5 - 2017-04-17
 - [USI] Added MKS detection. Fertilizer processor (renamed to Mk2 MPU) will use Gypsum or Hydrates instead of Ore if MKS is present.
 - [TAC] Added battery (250 Ec) to Mk2 Rec Centre.
 
+
 v0.8.1 - 2017-04-03
 ---
 - Added waste processor modules to Mk2 Chemical Plant following Kerbalism 1.2.3
 - Raised Specialist Bonus Base and Specialist efficieny Factors for all processors following TAC LS 0.12.9
 - Applied Water Purifier output balance following TAC LS 0.13.0
+
 
 v0.8.0 - 2017-03-26
 ---
