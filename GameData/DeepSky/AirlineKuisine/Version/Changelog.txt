@@ -1,3 +1,12 @@
+v1.1 - 2017-06-01
+---
+- KSP 1.3
+- Organized some files.
+- Changed all parts to only show at all if an LS is present.
+- Changed all parts to only show in CCK categories if CCK is installed, applies to USI and TAC.
+- Enabled IVAs in Mk2 cabins.
+- Updated Firespitter bundle.
+
 v1.0 - 2017-05-09
 ---
 - Added Mk2 Rec Centre Long.
