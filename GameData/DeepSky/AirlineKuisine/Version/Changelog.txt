@@ -1,7 +1,8 @@
 v1.2 - 2017-06-XX
 ---
 - Added Mk3 parts.
-- [TAC] Includes SETI style greenhouse which uses CRP Minerals instead of Nutrients.
+- [SNX] Fixed parts having no or wrong category and being absent from part list.
+- [TAC] Includes SETI style greenhouse but which uses CRP Minerals instead of Nutrients.
 - [KISM] Support postponed.
 - Mk3 Rec Centre:
   - [USI] High hab quarters stats.
