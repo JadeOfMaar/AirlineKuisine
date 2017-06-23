@@ -1,3 +1,22 @@
+v1.3 - 2017-06-22
+---
+- Added Mk3 parts.
+- Added Agent.
+- Adjusted weights.
+- All processors now have built-in radiators as implied by textures, with exceptions:
+  - Greenhouses, Snack Grinder
+- [SNX] Fixed parts having no or wrong category and being absent from part list.
+- [SNX] Updated Mk2 Snack Grinder texture.
+- [USI] Rebalanced MPU capacities.
+- [USI] Updated Mk2 Greenhouse texture.
+- [TAC] Includes SETI style greenhouse but which uses CRP Minerals instead of Nutrients.
+- [KISM] Fixed wrong mappings of config to model for processors.
+- Mk3 Rec Centre:
+  - [USI] High hab quarters stats.
+  - [TAC] 1000 EC.
+  - [SNX] Soil recycler for 8.
+  - KIS volume.
+
 v1.1 - 2017-06-01
 ---
 - KSP 1.3
