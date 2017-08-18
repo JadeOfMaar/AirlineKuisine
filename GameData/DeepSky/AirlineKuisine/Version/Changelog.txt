@@ -1,3 +1,14 @@
+v1.4 - 2017-08-18
+---
+- [TAC] 
+  - Revised textures. They now use the exact pattern of the TAC cylinder tanks.
+  - Fixed some names and descriptions. (Now I know exactly how many kerbals are supported by the converters.)
+- [USI]
+  - Updated some descriptions.
+- [SNX] 
+  - Removed Soil option from variable tanks to follow Snacks! convention and to make discrete Soil tank more relevant.
+  - Updated textures accordingly.
+
 v1.3 - 2017-06-22
 ---
 - Added Mk3 parts.
