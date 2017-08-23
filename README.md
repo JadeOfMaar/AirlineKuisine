@@ -1,6 +1,6 @@
 # Deep Sky Airline Kuisine
 ## Everyone's favorite life support in everyone's favorite shapes
-Version 1.4.0
+Version 1.5.0
   
 Another mod for [Kerbal Space Program](http://www.kerbalspaceprogram.com/), lightweight in code but a little heavy on textures. This is a very small parts pack that provides tanks, cabins and converters in the Mk2 and Mk3 spaceplane form factors, whose textures and functions change depending on the life support system installed beside them.
 
