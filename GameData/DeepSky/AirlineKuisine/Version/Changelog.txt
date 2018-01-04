@@ -1,118 +1,125 @@
-v1.6 - 2017-10-11
+v1.6 * 2018-01-04
 ---
-- Added compatibility for Interstellar Flight Inc. Life Support
+* Added compatibility for Interstellar Flight Inc. Life Support
+* Added dependency on Deep Sky Core which introduces 4 intake parts, 2 of which are harvesters
+  * Added compatibility for IFI, TAC, Kerbalism to intakes
+  * Replaced all Mk2 Air processors with greenhouses
+  * Updated OPT style to contain Mk2 TAC greenhouse
 
-v1.5 - 2017-08-23
+
+v1.5 * 2017-08-23
 ---
-- Added OPT Mk2 style textures for USI and TAC.
-- Fixed Mk2 Rec Centre Long not in Light action group.
+* Added OPT Mk2 style textures for USI and TAC.
+* Fixed Mk2 Rec Centre Long not in Light action group.
 
-v1.4 - 2017-08-18
+
+v1.4 * 2017-08-18
 ---
-- [TAC] 
-  - Revised textures. They now use the exact pattern of the TAC cylinder tanks.
-  - Fixed some names and descriptions. (Now I know exactly how many kerbals are supported by the converters.)
-- [USI]
-  - Updated some descriptions.
-- [SNX] 
-  - Removed Soil option from variable tanks to follow Snacks! convention and to make discrete Soil tank more relevant.
-  - Updated textures accordingly.
+* [TAC] 
+  * Revised textures. They now use the exact pattern of the TAC cylinder tanks.
+  * Fixed some names and descriptions. (Now I know exactly how many kerbals are supported by the converters.)
+* [USI]
+  * Updated some descriptions.
+* [SNX] 
+  * Removed Soil option from variable tanks to follow Snacks! convention and to make discrete Soil tank more relevant.
+  * Updated textures accordingly.
 
-v1.3 - 2017-06-22
+
+v1.3 * 2017-06-22
 ---
-- Added Mk3 parts.
-- Added Agent.
-- Adjusted weights.
-- All processors now have built-in radiators as implied by textures, with exceptions:
-  - Greenhouses, Snack Grinder
-- [SNX] Fixed parts having no or wrong category and being absent from part list.
-- [SNX] Updated Mk2 Snack Grinder texture.
-- [USI] Rebalanced MPU capacities.
-- [USI] Updated Mk2 Greenhouse texture.
-- [TAC] Includes SETI style greenhouse but which uses CRP Minerals instead of Nutrients.
-- [KISM] Fixed wrong mappings of config to model for processors.
-- Mk3 Rec Centre:
-  - [USI] High hab quarters stats.
-  - [TAC] 1000 EC.
-  - [SNX] Soil recycler for 8.
-  - KIS volume.
+* Added Mk3 parts.
+* Added Agent.
+* Adjusted weights.
+* All processors now have built-in radiators as implied by textures, with exceptions:
+  * Greenhouses, Snack Grinder
+* [SNX] Fixed parts having no or wrong category and being absent from part list.
+* [SNX] Updated Mk2 Snack Grinder texture.
+* [USI] Rebalanced MPU capacities.
+* [USI] Updated Mk2 Greenhouse texture.
+* [TAC] Includes SETI style greenhouse but which uses CRP Minerals instead of Nutrients.
+* [KISM] Fixed wrong mappings of config to model for processors.
+* Mk3 Rec Centre:
+  * [USI] High hab quarters stats.
+  * [TAC] 1000 EC.
+  * [SNX] Soil recycler for 8.
+  * KIS volume.
 
-v1.1 - 2017-06-01
+v1.1 * 2017-06-01
 ---
-- KSP 1.3
-- Organized some files.
-- Changed all parts to only show at all if an LS is present.
-- Changed all parts to only show in CCK categories if CCK is installed, applies to USI and TAC.
-- Enabled IVAs in Mk2 cabins.
-- Updated Firespitter bundle.
+* KSP 1.3
+* Organized some files.
+* Changed all parts to only show at all if an LS is present.
+* Changed all parts to only show in CCK categories if CCK is installed, applies to USI and TAC.
+* Enabled IVAs in Mk2 cabins.
+* Updated Firespitter bundle.
 
-v1.0 - 2017-05-09
+v1.0 * 2017-05-09
 ---
-- Added Mk2 Rec Centre Long.
-  - [USI] High hab quarters stats.
-  - [TAC] 500 EC.
-  - [KISM] Default provisions for crewed part.
-  - [SNX] Soil recycler for 4.
-  - [SNX] High snacks tankage. Holds > 2x short cabin.
-  - KIS volume.
-  - Moved in CTT.
-- Mk2 Rec Centre Short:
-  - [USI] Added more hab multipler, purposed as hab common.
-  - [SNX] Fixed Rec Centre Short snack supply starting only halfway.
-  - Moved in CTT with long cabin.
-- Added support for reference part (Science Lab from Mk2 Expansion)
-  - [SNX] Snack Grinder.
-  - [USI] 50% Recycler for 2 kerbals.
-- [KISM] Added Ammonia to Air Harvester.
-- [USI] Very minor recalibrations.
-- [USI] Replaced erroneous Hydrates storage with Minerals storage.
+* Added Mk2 Rec Centre Long.
+  * [USI] High hab quarters stats.
+  * [TAC] 500 EC.
+  * [KISM] Default provisions for crewed part.
+  * [SNX] Soil recycler for 4.
+  * [SNX] High snacks tankage. Holds > 2x short cabin.
+  * KIS volume.
+  * Moved in CTT.
+* Mk2 Rec Centre Short:
+  * [USI] Added more hab multipler, purposed as hab common.
+  * [SNX] Fixed Rec Centre Short snack supply starting only halfway.
+  * Moved in CTT with long cabin.
+* Added support for reference part (Science Lab from Mk2 Expansion)
+  * [SNX] Snack Grinder.
+  * [USI] 50% Recycler for 2 kerbals.
+* [KISM] Added Ammonia to Air Harvester.
+* [USI] Very minor recalibrations.
+* [USI] Replaced erroneous Hydrates storage with Minerals storage.
 
 
-v0.8.5 - 2017-04-17
+v0.8.5 * 2017-04-17
 ---
-- Added texture switching to USI and TAC modes.
-- Fixed some errors in LS detection and resource switches.
-- [USI] Added Ore, Gypsum, Hydrates switching for Fertilizer production.
-- [USI] Shaved some weight off of processor parts.
-- [USI] Added warehouse and recycle bin modules.
-- [USI] Added MKS detection. Fertilizer processor (renamed to Mk2 MPU) will use Gypsum or Hydrates instead of Ore if MKS is present.
-- [TAC] Added battery (250 Ec) to Mk2 Rec Centre.
+* Added texture switching to USI and TAC modes.
+* Fixed some errors in LS detection and resource switches.
+* [USI] Added Ore, Gypsum, Hydrates switching for Fertilizer production.
+* [USI] Shaved some weight off of processor parts.
+* [USI] Added warehouse and recycle bin modules.
+* [USI] Added MKS detection. Fertilizer processor (renamed to Mk2 MPU) will use Gypsum or Hydrates instead of Ore if MKS is present.
+* [TAC] Added battery (250 Ec) to Mk2 Rec Centre.
 
 
-v0.8.1 - 2017-04-03
+v0.8.1 * 2017-04-03
 ---
-- Added waste processor modules to Mk2 Chemical Plant following Kerbalism 1.2.3
-- Raised Specialist Bonus Base and Specialist efficieny Factors for all processors following TAC LS 0.12.9
-- Applied Water Purifier output balance following TAC LS 0.13.0
+* Added waste processor modules to Mk2 Chemical Plant following Kerbalism 1.2.3
+* Raised Specialist Bonus Base and Specialist efficieny Factors for all processors following TAC LS 0.12.9
+* Applied Water Purifier output balance following TAC LS 0.13.0
 
 
-v0.8.0 - 2017-03-26
+v0.8.0 * 2017-03-26
 ---
-- Added Kerbalism support.
-- Fixed MiniAVC support.
+* Added Kerbalism support.
+* Fixed MiniAVC support.
 
 
-V0.7.2 - 2017-03-16
+V0.7.2 * 2017-03-16
 ---
-- Testing MiniAVC
+* Testing MiniAVC
 
 
-V0.7.1 - 2017-03-16
+V0.7.1 * 2017-03-16
 ---
-- Testing MiniAVC
+* Testing MiniAVC
 
 
-v0.7 - 2017-03-15
+v0.7 * 2017-03-15
 ---
-- Buffed Mk2 Recycler [USI] to 4 kerbals at 65%.
-- Fixed problem where TAC mode overlaps Snacks mode.
+* Buffed Mk2 Recycler [USI] to 4 kerbals at 65%.
+* Fixed problem where TAC mode overlaps Snacks mode.
 
 
-v0.61 - 2017-03-09
+v0.61 * 2017-03-09
 ---
-- Added MiniAVC
+* Added MiniAVC
 
 
-v0.6 - 2017-03-08
+v0.6 * 2017-03-08
 ---
-- Inital Release. Snacks, USI and TAC systems supported.
+* Inital Release. Snacks, USI and TAC systems supported.
