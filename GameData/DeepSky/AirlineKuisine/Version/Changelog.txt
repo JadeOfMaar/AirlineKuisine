@@ -1,3 +1,9 @@
+v1.6.1 * 2018-01-08
+---
+* Applied Mk2 greenhouses. Somehow the changes were lost or overlooked.
+* Added "DS" prefix to parts.
+
+
 v1.6 * 2018-01-04
 ---
 * Added compatibility for Interstellar Flight Inc. Life Support
