@@ -2,6 +2,7 @@ v1.6.1 * 2018-01-08
 ---
 * Applied Mk2 greenhouses. Somehow the changes were lost or overlooked.
 * Added "DS" prefix to parts.
+* Fixed massive oversight. Kerbalism processors were assigned to wrong part names. Will cripple (but not break) existing craft.
 
 
 v1.6 * 2018-01-04
