@@ -1,3 +1,15 @@
+v2.0.0
+---
+* Replaced FS dependency with B9PS.
+* Removed majority texture-switching feature and at least half the texture files.
+* Cleaned up descriptions, use cases, and categories.
+* Enabled parts to appear in part selection when no LS mod installed.
+* Updated Snacks integration:
+  * Replaced/Rearranged some Processor functions
+  * Includes/Requires Pathfinder for some functions
+  * Uses WBT instead of SnacksUtils or B9PS
+
+
 v1.6.1 * 2018-01-08
 ---
 * Applied Mk2 greenhouses. Somehow the changes were lost or overlooked.
