@@ -8,6 +8,7 @@ v2.0.0
   * Replaced/Rearranged some Processor functions
   * Includes/Requires Pathfinder for some functions
   * Uses WBT instead of SnacksUtils or B9PS
+* Added WBI part tips!
 
 
 v1.6.1 * 2018-01-08
