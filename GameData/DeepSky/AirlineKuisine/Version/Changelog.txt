@@ -9,6 +9,7 @@ v2.0.0
   * Includes/Requires Pathfinder for some functions
   * Uses WBT instead of SnacksUtils or B9PS
 * Added WBI part tips!
+* Removed unrelated IVA assets and fix lights animation and immense drag problem in Mk2 Long Cabin
 
 
 v1.6.1 * 2018-01-08
