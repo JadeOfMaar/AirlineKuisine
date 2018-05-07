@@ -1,0 +1,65 @@
+//Long tank A
+@PART[dsak_ess_al]:NEEDS[]
+{
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		moduleID = TankA
+		switcherDescription = Consumables
+		switchInFlight = True
+		baseVolume = 800
+	}
+}
+
+//Long tank B
+@PART[dsak_ess_bl]:NEEDS[]
+{
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		moduleID = TankB
+		switcherDescription = Service
+		switchInFlight = True
+		baseVolume = 800
+	}
+}
+
+//Short essentials tank
+@PART[dsak_ess_as]:NEEDS[]
+{
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		moduleID = TankA
+		switcherDescription = Consumables
+		switchInFlight = True
+		baseVolume = 400
+	}
+}
+
+
+//Short support tank
+@PART[dsak_ess_bs]:NEEDS[]
+{
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		moduleID = TankB
+		switcherDescription = Service
+		switchInFlight = True
+		baseVolume = 400
+	}
+}
+
+//Short waste tank
+@PART[dsak_swg_as]:NEEDS[]
+{
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		moduleID = TankW
+		switcherDescription = Sewage
+		switchInFlight = True
+		baseVolume = 400
+	}
+}
