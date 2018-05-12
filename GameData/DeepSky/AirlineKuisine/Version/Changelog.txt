@@ -1,7 +1,7 @@
 v2.0.0 * 2018-05-12
 ---
 * Replaced Firespitter dependency with B9 Part Switch.
-* Removed majority texture-switching feature and at least half the texture files.
+* Removed majority texture-switching feature and trimmed the download from 100MB to 62MB.
 * Hopefully fixed Mk2 Long Cabin looking like crud when no life support mods installed.
 * Cleaned up descriptions, use cases, and categories.
 * Enabled parts to appear in part selection when no life support mods installed.
