@@ -1,4 +1,4 @@
-v2.0.0 * 2018-00-00
+v2.0.1 * 2018-05-14
 ---
 * [SNX] Fixed solar panel orientation in Mk2 tanks.
 * [SNX] Fixed short Mk2 all-purpose tank not being all-purpose.
