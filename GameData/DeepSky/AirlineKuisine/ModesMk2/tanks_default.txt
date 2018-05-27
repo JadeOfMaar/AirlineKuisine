@@ -1,5 +1,5 @@
 //Long tank A
-@PART[dsak_ess_al]:NEEDS[]
+@PART[dsak_ess_al]:NEEDS[!USILifeSupport,!TacLifeSupport,!IFILS]
 {
 	MODULE
 	{
@@ -12,7 +12,7 @@
 }
 
 //Long tank B
-@PART[dsak_ess_bl]:NEEDS[]
+@PART[dsak_ess_bl]:NEEDS[!USILifeSupport,!TacLifeSupport,!IFILS]
 {
 	MODULE
 	{
@@ -25,7 +25,7 @@
 }
 
 //Short essentials tank
-@PART[dsak_ess_as]:NEEDS[]
+@PART[dsak_ess_as]:NEEDS[!USILifeSupport,!TacLifeSupport,!IFILS]
 {
 	MODULE
 	{
@@ -39,7 +39,7 @@
 
 
 //Short support tank
-@PART[dsak_ess_bs]:NEEDS[]
+@PART[dsak_ess_bs]:NEEDS[!USILifeSupport,!TacLifeSupport,!IFILS]
 {
 	MODULE
 	{
@@ -52,7 +52,7 @@
 }
 
 //Short waste tank
-@PART[dsak_swg_as]:NEEDS[]
+@PART[dsak_swg_as]:NEEDS[!USILifeSupport,!TacLifeSupport,!IFILS]
 {
 	MODULE
 	{
