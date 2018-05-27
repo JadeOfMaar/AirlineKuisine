@@ -1,11 +1,11 @@
 //Cabin short: 
-@PART[dsak_cabin]:NEEDS[]
+@PART[dsak_cabin]:NEEDS[!USILifeSupport,!TacLifeSupport,!IFILS]
 {
 	
 }
 
 //Cabin long: 
-@PART[dsak_cabin2]:NEEDS[]
+@PART[dsak_cabin2]:NEEDS[!USILifeSupport,!TacLifeSupport,!IFILS]
 {
 	RESOURCE
 	{
@@ -15,20 +15,244 @@
 	}
 }
 
-//Processor A: 
-@PART[dsak_proc_a]:NEEDS[]
+//Processor A: Power Core
+@PART[dsak_proc_a]:NEEDS[!USILifeSupport,!TacLifeSupport,!IFILS]
 {
-	
+	MODULE
+	{
+		name = ModuleResourceConverter
+		ConverterName =  HTEG
+		StartActionName = Start HTEG
+		StopActionName = Stop HTEG
+		ToggleActionName = Toggle HTEG
+		AutoShutdown = false
+		 
+		INPUT_RESOURCE
+		{
+			ResourceName = LiquidFuel
+			Ratio = 0.225
+			FlowMode = STAGE_PRIORITY_FLOW
+		}
+		OUTPUT_RESOURCE
+		{
+			ResourceName = ElectricCharge
+			Ratio = 2.5
+			DumpExcess = false
+		}
+		OUTPUT_RESOURCE
+		{
+			ResourceName = MillPower
+			Ratio = 0.5
+			DumpExcess = true
+		}
+	}
+	MODULE
+	{
+		ConverterName = #autoLOC_502022 //#autoLOC_502022 = Fuel Cell
+		StartActionName = #autoLOC_502023 //#autoLOC_502023 = Start Fuel Cell
+		StopActionName = #autoLOC_502024 //#autoLOC_502024 = Stop Fuel Cell
+		ToggleActionName = #autoLOC_502025 //#autoLOC_502025 = Toggle Fuel Cell
+		AutoShutdown = false
+		 
+		INPUT_RESOURCE
+		{
+			ResourceName = LiquidFuel
+			Ratio = 0.02025
+			FlowMode = STAGE_PRIORITY_FLOW
+  		}
+		INPUT_RESOURCE
+		{
+			ResourceName = Oxidizer
+			Ratio = 0.02475
+			FlowMode = STAGE_PRIORITY_FLOW
+		}
+		OUTPUT_RESOURCE
+		{
+			ResourceName = ElectricCharge
+			Ratio = 18
+			DumpExcess = false
+		}
+		OUTPUT_RESOURCE
+		{
+			ResourceName = MillPower
+			Ratio = 0.5
+			DumpExcess = true
+		}
+	}
+	MODULE
+	{
+		name = ModuleResourceConverter
+		AlwaysActive = true
+		ConverterName = Thermal Flywheels
+		AutoShutdown = false
+		GeneratesHeat = false
+		UseSpecialistBonus = false
+		INPUT_RESOURCE
+		{
+			ResourceName = MillPower
+			Ratio = 0.1
+		}
+		OUTPUT_RESOURCE
+		{
+			ResourceName = ElectricCharge
+			Ratio = 10
+			DumpExcess = true
+		}
+	}
+	RESOURCE
+	{
+		name = MillPower
+		amount = 0
+		maxAmount = 25
+	}
 }
 
-//Processor B: Power Core
-@PART[dsak_proc_b]:NEEDS[]
+//Processor B: Ore Crusher
+@PART[dsak_proc_b]:NEEDS[!USILifeSupport,!TacLifeSupport,!IFILS]
 {
-	
+	MODULE
+	{
+		name = ModuleResourceConverter
+		ConverterName = Ore Crusher
+		StartActionName = Start Ore Crusher
+		StopActionName = Stop Ore Crusher
+		ToggleActionName = Toggle Ore Crusher
+		AutoShutdown = true
+		TemperatureModifier
+		{
+			key = 0 100000
+			key = 750 50000
+			key = 1000 10000
+			key = 1250 500	
+			key = 2000 50	
+			key = 4000 0
+		}				
+		GeneratesHeat = true
+		DefaultShutoffTemp = .8
+		ThermalEfficiency 
+		{
+			key = 0 0 0 0
+			key = 500 0.1 0 0
+			key = 1000 1.0 0 0
+			key = 1250 0.1 0 0
+			key = 3000 0 0 0 
+		}
+		
+		UseSpecialistBonus = true
+		SpecialistEfficiencyFactor = 0.2
+		SpecialistBonusBase = 0.05
+		UseSpecialistHeatBonus = true
+		SpecialistHeatFactor = 0.1
+		ExperienceEffect = ConverterSkill
+		EfficiencyBonus = 1
+		 
+		INPUT_RESOURCE
+		{
+			ResourceName = Ore
+			Ratio = 0.05
+			FlowMode = STAGE_PRIORITY_FLOW
+		}
+		INPUT_RESOURCE
+		{
+			ResourceName = ElectricCharge
+			Ratio = 12
+		}
+		OUTPUT_RESOURCE
+		{
+			ResourceName = FineOre
+			Ratio = 0.05
+			DumpExcess = false
+			FlowMode = STAGE_PRIORITY_FLOW
+		}
+	}
+	MODULE
+	{
+		name = ModuleResourceConverter
+		ConverterName = Fuel Distiller (LqdFuel)
+		StartActionName = Start Fuel Distiller (LqdFuel)
+		StopActionName = Stop Fuel Distiller (LqdFuel)
+		ToggleActionName = Toggle Distiller (LqdFuel)
+		AutoShutdown = false
+		 
+		INPUT_RESOURCE
+		{
+			ResourceName = FineOre
+			Ratio = 0.03
+			FlowMode = STAGE_PRIORITY_FLOW
+		}
+		INPUT_RESOURCE
+		{
+			ResourceName = ElectricCharge
+			Ratio = 6.4
+		}
+		OUTPUT_RESOURCE
+		{
+			ResourceName = LiquidFuel
+			Ratio = 0.06
+			DumpExcess = false
+			FlowMode = STAGE_PRIORITY_FLOW
+		}
+	}
+	MODULE
+	{
+		name = ModuleResourceConverter
+		ConverterName = Fuel Distiller (Ox)
+		StartActionName = Start Fuel Distiller (Ox)
+		StopActionName = Stop Fuel Distiller (Ox)
+		ToggleActionName = Toggle Distiller (Ox)
+		AutoShutdown = false
+		 
+		INPUT_RESOURCE
+		{
+			ResourceName = FineOre
+			Ratio = 0.046
+			FlowMode = STAGE_PRIORITY_FLOW
+		}
+		INPUT_RESOURCE
+		{
+			ResourceName = ElectricCharge
+			Ratio = 6.4
+		}
+		OUTPUT_RESOURCE
+		{
+			ResourceName = Oxidizer
+			Ratio = 0.07
+			DumpExcess = false
+			FlowMode = STAGE_PRIORITY_FLOW
+		}
+	}
+	MODULE
+	{
+		name = ModuleResourceConverter
+		ConverterName = Fuel Distiller (Monoprop)
+		StartActionName = Start Fuel Distiller (Monoprop)
+		StopActionName = Stop Fuel Distiller (Monoprop)
+		ToggleActionName = Toggle Distiller (Monoprop)
+		AutoShutdown = false
+		 
+		INPUT_RESOURCE
+		{
+			ResourceName = FineOre
+			Ratio = 0.046
+			FlowMode = STAGE_PRIORITY_FLOW
+		}
+		INPUT_RESOURCE
+		{
+			ResourceName = ElectricCharge
+			Ratio = 6.4
+		}
+		OUTPUT_RESOURCE
+		{
+			ResourceName = MonoPropellant
+			Ratio = 0.07
+			DumpExcess = false
+			FlowMode = STAGE_PRIORITY_FLOW
+		}
+	}
 }
 
 //Processor C: ISRU
-@PART[dsak_proc_c]:NEEDS[]
+@PART[dsak_proc_c]:NEEDS[!USILifeSupport,!TacLifeSupport,!IFILS]
 {
 	MODULE
 	{
@@ -41,6 +265,7 @@
 		 ConverterName = #autoLOC_502026 //#autoLOC_502026 = Lf+Ox
 		 StartActionName = #autoLOC_502027 //#autoLOC_502027 = Start ISRU [Lf+Ox]
 		 StopActionName = #autoLOC_502028 //#autoLOC_502028 = Stop ISRU [Lf+Ox]
+		ToggleActionName = Toggle ISRU [Lf+Ox]
 		AutoShutdown = true
 		TemperatureModifier
 		{
@@ -107,6 +332,7 @@
 		 ConverterName = #autoLOC_502032 //#autoLOC_502032 = LiquidFuel
 		 StartActionName = #autoLOC_502033 //#autoLOC_502033 = Start ISRU [LqdFuel]
 		 StopActionName = #autoLOC_502034 //#autoLOC_502034 = Stop ISRU [LqdFuel]
+		ToggleActionName = Toggle ISRU [LqdFuel]
 		AutoShutdown = true
 		TemperatureModifier
 		{
@@ -166,6 +392,7 @@
 		ConverterName = #autoLOC_502035 //#autoLOC_502035 = Oxidizer
 		StartActionName = #autoLOC_502036 //#autoLOC_502036 = Start ISRU [Ox]
 		StopActionName = #autoLOC_502037 //#autoLOC_502037 = Stop ISRU [Ox]
+		ToggleActionName = Toggle ISRU [Ox]
 		AutoShutdown = true
 		TemperatureModifier
 		{
@@ -223,6 +450,7 @@
 		 ConverterName = #autoLOC_502045 //#autoLOC_502045 = MonoPropellant
 		 StartActionName = #autoLOC_502046 //#autoLOC_502046 = Start ISRU [MonoProp]
 		 StopActionName = #autoLOC_502047 //#autoLOC_502047 = Stop ISRU [MonoProp]
+		ToggleActionName = Toggle ISRU [MonoProp]
 		AutoShutdown = true
 		TemperatureModifier
 		{
