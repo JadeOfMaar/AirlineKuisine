@@ -1,7 +1,17 @@
+v2.1.0 * 2018-07-09
+---
+* Developed Vanilla Mode (still requires B9PS) for when no LS present. Airline Kuisine provides Ore and Battery storage, FineOre resource for improved or speedy ISRU, and concept thermal electric generators (based on the Sterling Engine) for on-demand power.
+* [KISM] Balance pass and routine maintenance following greenhouse rebalance in Kerbalism 1.6 or 1.7. Many thanks to PiezPiedPy, co-dev of Kerbalism Continiued for KSP 1.4.x
+* [KISM] Mk2 greenhouse "Kitchen Garden" produces Food in just 90 days (inspired by known edible plants that grow in 60 days or less IRL)
+* Adjusted radiator stats
+* Adjusted tech tree locations
+
+
 v2.0.1 * 2018-05-14
 ---
 * [SNX] Fixed solar panel orientation in Mk2 tanks.
 * [SNX] Fixed short Mk2 all-purpose tank not being all-purpose.
+
 
 v2.0.0 * 2018-05-12
 ---
