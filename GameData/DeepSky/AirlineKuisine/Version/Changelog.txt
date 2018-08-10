@@ -1,3 +1,11 @@
+v2.1.1 * 2018-08-10
+---
+* [SNX] Fixed exclusion problem where Default mode features still appear when Snacks mode active.
+* [SNX] Rebalanced Snacks templates.
+* [SNX] Added Ponderosa features to Mk3 Rec Centre.
+* [SNX] Upgraded Convert-O-Trons to OmniWorks (will not help with Extraplanetary Launchpads right now).
+
+
 v2.1.0 * 2018-07-09
 ---
 * Developed Vanilla Mode (still requires B9PS) for when no LS present. Airline Kuisine provides Ore and Battery storage, FineOre resource for improved or speedy ISRU, and concept thermal electric generators (based on the Sterling Engine) for on-demand power.
