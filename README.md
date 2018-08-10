@@ -1,6 +1,5 @@
 # Deep Sky Airline Kuisine
 ## Everyone's favorite life support in everyone's favorite shapes
-## Version 2.0.1
 ### Licensed CC-BY-NC-SA
 =======
 
