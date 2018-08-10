@@ -1,4 +1,4 @@
-v2.1.1 * 2018-08-10
+v2.2.0 * 2018-08-10
 ---
 * [SNX] Fixed exclusion problem where Default mode features still appear when Snacks mode active.
 * [SNX] Rebalanced Snacks templates.
