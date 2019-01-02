@@ -1,3 +1,7 @@
+v 2.2.1 * 2019-01-02
+---
+* Added missing EVA science storage and Crew Report experiment to cabins.
+
 v2.2.0 * 2018-08-10
 ---
 * [SNX] Fixed exclusion problem where Default mode features still appear when Snacks mode active.
