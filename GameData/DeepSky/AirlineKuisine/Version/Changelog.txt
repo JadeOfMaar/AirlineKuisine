@@ -1,6 +1,14 @@
+v 2.2.2 * 2019-01-25
+---
+* [No-LS] Fixed Ore crusher input resource errors.
+* Fixed some processors appearing in Nuclear Propulsion tech node when they shouldn't. They should now appear in Stock Science Tech node or CTT's Hydroponics node.
+* Added in-game declarations for compatibility with WBI Play Mode.
+
+
 v 2.2.1 * 2019-01-02
 ---
 * Added missing EVA science storage and Crew Report experiment to cabins.
+
 
 v2.2.0 * 2018-08-10
 ---
