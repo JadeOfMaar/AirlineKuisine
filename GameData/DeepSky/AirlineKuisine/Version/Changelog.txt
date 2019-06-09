@@ -1,3 +1,11 @@
+v 2.3.0 * 2019-06-08
+---
+* [WBI] Catchup with WBI decal revamp
+* [WBI] Balance pass:
+  * Reduced OmniConverter slots in Mk2 from 4 to 2.
+  * Slight reduction in OmniConverter capacities in Mk3, raised OmniWorks OmniStorage partial volume.
+* [USI] Life support module updates contributed by @ Kielm.
+
 v 2.2.2 * 2019-01-25
 ---
 * [No-LS] Fixed Ore crusher input resource errors.
