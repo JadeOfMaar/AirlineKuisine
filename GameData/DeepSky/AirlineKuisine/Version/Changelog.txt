@@ -1,6 +1,19 @@
-v 2.3.1 * 2019-07-30
+v 2.4.0 (WIP) * 2020-08-02
 ---
-* [WBI] Cabins support Air! and Stress!
+* Deleted unwanted textures.
+* Dropped IFI support.
+* Fixed WBI mode (It became completely broken over time). 
+  * Added support for Air! and Stress!
+  * Fixed embedded solar panel for Mk2 parts (broken by Restock blacklist).
+  * Reduced requirement on Pathfinder for functionality. 
+  * OmniConverters always available.
+  * Use B9PS for essentials tanks, OmniStorage for all-purpose tanks.
+* Updated B9 tank options.
+* Updated Kerbalism support:
+  * Use B9PS for tanks.
+* Updated USI mode:
+  * Added colors to B9 tank options.
+  * Fixed texture problems.
 
 
 v 2.3.0 * 2019-06-08
