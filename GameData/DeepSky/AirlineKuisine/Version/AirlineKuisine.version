@@ -1,8 +1,8 @@
 {
 	"NAME":"Airline Kuisine",
 	"DOWNLOAD":"https://github.com/JadeOfMaar/AirlineKuisine/releases",
-	"URL":"https://github.com/JadeOfMaar/AirlineKuisine/blob/master/GameData/DeepSky/AirlineKuisine/Version/AirlineKuisine.version",
-	"CHANGE_LOG_URL":"https://github.com/JadeOfMaar/AirlineKuisine/blob/master/GameData/DeepSky/AirlineKuisine/Version/Changelog.txt",
+	"URL": "https://raw.githubusercontent.com/JadeOfMaar/AirlineKuisine/master/GameData/DeepSky/AirlineKuisine/Version/AirlineKuisine.version",
+	"CHANGE_LOG_URL": "https://raw.githubusercontent.com/JadeOfMaar/AirlineKuisine/master/GameData/DeepSky/AirlineKuisine/Version/Changelog.txt",
 	"GITHUB":
 	{
 		"USERNAME":"JadeOfMaar",
@@ -12,26 +12,14 @@
 	"VERSION":
 	{
 		"MAJOR":2,
-		"MINOR":3,
+		"MINOR":4,
 		"PATCH":0,
 		"BUILD":0
 	},
 	"KSP_VERSION":
 	{
 		"MAJOR":1,
-		"MINOR":7,
+		"MINOR":9,
 		"PATCH":1
-	},
-	"KSP_VERSION_MIN":
-	{
-		"MAJOR":1,
-		"MINOR":7,
-		"PATCH":0
-	},
-	"KSP_VERSION_MAX":
-	{
-		"MAJOR":1,
-		"MINOR":7,
-		"PATCH":9
 	}
 }
