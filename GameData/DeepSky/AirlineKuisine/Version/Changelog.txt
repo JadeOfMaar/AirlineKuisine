@@ -1,4 +1,4 @@
-v 2.4.0 (WIP) * 2020-08-02
+v 2.4.0
 ---
 * Deleted unwanted textures.
 * Dropped IFI support.
