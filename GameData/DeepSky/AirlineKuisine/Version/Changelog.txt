@@ -1,3 +1,9 @@
+v 2.4.1
+---
+* Added Connected Living Spaces config.
+* Fixed leftover misplaced B9 config for Snacks.
+
+
 v 2.4.0
 ---
 * Deleted unwanted textures.
