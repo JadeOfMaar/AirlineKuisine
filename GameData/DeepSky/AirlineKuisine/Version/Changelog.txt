@@ -1,6 +1,12 @@
+v 2.5.0
+---
+* Added KSP 1.11 stock inventory.
+
+
 v 2.4.3
 ---
 * Fixed Snacks Air B9PS problem.
+
 
 v 2.4.2
 ---
