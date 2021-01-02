@@ -1,6 +1,7 @@
 v 2.5.0
 ---
 * Added KSP 1.11 stock inventory.
+* Fixed missing NEEDS on CLS patch.
 
 
 v 2.4.3
